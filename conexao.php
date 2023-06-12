@@ -1,9 +1,9 @@
 <?php //session_start();
 
-    $servidor = "localhost";
-    $usuario = "root"; 
-    $senha = "";
-    $db_name = "db_locadora";
+    $servidor = "co28d739i4m2sb7j.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+    $usuario = "vjpe1cftcj8n9i0e";
+    $senha = "jcdrd8wzsciyhxhb";
+    $db_name = "wz3jz3o58mcws7dw";
 
     $conexao = mysqli_connect($servidor, $usuario, $senha, $db_name) or die('Banco de dados indisponível.');
 
@@ -11,9 +11,9 @@
 
     $host_ip = $_SERVER['HTTP_HOST'];
 
-    $url = "http://".$host_ip."/projeto";
+    $url = "http://".$host_ip."/";
 
-    $url_admin = "http://".$host_ip."/projeto/admin";
+    $url_admin = "http://".$host_ip."/admin";
     
-    $url_cliente = "http://".$host_ip."/projeto/cliente";
+    $url_cliente = "http://".$host_ip."/cliente";
 ?>
